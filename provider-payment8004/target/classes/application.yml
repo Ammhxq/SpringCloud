@@ -1,0 +1,14 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: colud-payment-service
+  cloud:
+    zookeeper:
+      connect-string: 172.16.103.10:2181
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.atguigu.springcloud.entities
+
+

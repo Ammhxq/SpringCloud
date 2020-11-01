@@ -1,0 +1,44 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: colud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: payment_route
+          #uri: http://localhost:8001
+          uri: lb://COLUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/get/**
+
+
+        - id: payment_route2
+          #uri: http://localhost:8001
+          uri: lb://COLUD-PAYMENT-SERVICE
+          #filters:
+          # - AddRequestParameter=X-Request-Id,1024 #h会在匹配的请求头上加上此请求头
+          predicates:
+            - After=2020-07-18T12:40:07.080+08:00[Asia/Shanghai]
+            - Path=/payment/lb/**
+            #- Cookie=user,hxq
+            #- Header=Request-Id, \d+
+            # - Host=**.atguigu.com
+            #- Method=Get
+            #- Query=username, \d+
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    hostname: cloud-gateway-service
+

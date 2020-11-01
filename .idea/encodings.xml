@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/alibaba-provder-payment9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-provder-payment9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-provider-payment9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-provider-payment9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3366/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-nacos-client3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-nacos-client3377/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/congig-center3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/congig-center3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-nacos-order83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-nacos-order83/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-openFegin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-openFegin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-fegin-hystix-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-fegin-hystix-order80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-dashboard-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-dashboard-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-payment8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service2002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service2002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service2003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service2003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-consumer8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-consumer8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq-provider8801/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-nacos-client3377" />
+        <module name="provider-payment8004" />
+        <module name="consumer-order-80" />
+        <module name="provider-payment-8002" />
+        <module name="provider-payment-8001" />
+        <module name="config-client3366" />
+        <module name="eureka-service7002" />
+        <module name="eureka-service7001" />
+        <module name="api-commons" />
+        <module name="consumer-fegin-hystix-order80" />
+        <module name="alibaba-sentinel-service8401" />
+        <module name="consume-openFegin" />
+        <module name="provider-hystrix-payment8001" />
+        <module name="alibaba-provider-payment9001" />
+        <module name="congig-center3344" />
+        <module name="consumer-hystrix-dashboard-9001" />
+        <module name="gateway9527" />
+        <module name="config-client3355" />
+        <module name="seata-account-service2002" />
+        <module name="stream-rabbitmq-provider8801" />
+        <module name="consume-nacos-order83" />
+        <module name="alibaba-provder-payment9002" />
+        <module name="seata-storage-service2003" />
+        <module name="stream-rabbitmq-consumer8802" />
+        <module name="seata-order-service2001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-provder-payment9002" target="1.8" />
+      <module name="alibaba-provider-payment9001" target="1.8" />
+      <module name="alibaba-sentinel-service8401" target="1.8" />
+      <module name="api-commons" target="1.8" />
+      <module name="config-client3355" target="1.8" />
+      <module name="config-client3366" target="1.8" />
+      <module name="config-nacos-client3377" target="1.8" />
+      <module name="congig-center3344" target="1.8" />
+      <module name="consume-nacos-order83" target="1.8" />
+      <module name="consume-openFegin" target="1.8" />
+      <module name="consumer-fegin-hystix-order80" target="1.8" />
+      <module name="consumer-hystrix-dashboard-9001" target="1.8" />
+      <module name="consumer-order-80" target="1.8" />
+      <module name="eureka-service7001" target="1.8" />
+      <module name="eureka-service7002" target="1.8" />
+      <module name="gateway9527" target="1.8" />
+      <module name="provider-hystrix-payment8001" target="1.8" />
+      <module name="provider-payment-8001" target="1.8" />
+      <module name="provider-payment-8002" target="1.8" />
+      <module name="provider-payment8004" target="1.8" />
+      <module name="seata-account-service2002" target="1.8" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
+      <module name="seata-storage-service2003" target="1.8" />
+      <module name="Springcloud" target="1.8" />
+      <module name="stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="stream-rabbitmq-provider8801" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
