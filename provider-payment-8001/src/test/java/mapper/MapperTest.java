@@ -29,6 +29,7 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
+import org.elasticsearch.search.sort.SortOrder;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -146,6 +147,7 @@ public class MapperTest extends BaseTest {
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         // HighlightBuilder highlighter = sourceBuilder.highlighter();
         sourceBuilder.from(0);
+        sourceBuilder.sort("sdf",SortOrder.ASC);
         sourceBuilder.size(10);
         TermQueryBuilder termQueryBuilder = QueryBuilders.termQuery("name", "张");
         sourceBuilder.query(termQueryBuilder).timeout(new TimeValue(60, TimeUnit.SECONDS));
