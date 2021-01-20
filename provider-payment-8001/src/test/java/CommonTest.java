@@ -260,4 +260,9 @@ public class CommonTest {
         c.accept(a, b);
     }
 
+    static <T> void test(T a, T b, BiConsumer<T, T>  dev) {
+        System.out.println("dev");
+        dev.accept(a, b);
+    }
+
 }
