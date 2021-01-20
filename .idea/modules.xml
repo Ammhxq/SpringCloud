@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Springcloud.iml" filepath="$PROJECT_DIR$/.idea/Springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/alibaba-provder-payment9002/alibaba-provder-payment9002.iml" filepath="$PROJECT_DIR$/alibaba-provder-payment9002/alibaba-provder-payment9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/alibaba-provider-payment9001/alibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/alibaba-provider-payment9001/alibaba-provider-payment9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-service8401/alibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-service8401/alibaba-sentinel-service8401.iml" />
