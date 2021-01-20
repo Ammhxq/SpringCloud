@@ -2,7 +2,6 @@ import cn.hutool.aop.proxy.CglibProxyFactory;
 import cn.hutool.aop.proxy.ProxyFactory;
 import com.atguigu.springcloud.domin.bo.DebugInvocationHandler;
 import com.atguigu.springcloud.domin.bo.User;
-import com.atguigu.springcloud.service.AliSmsService;
 import com.atguigu.springcloud.service.PaymentService;
 import com.atguigu.springcloud.service.impl.PaymentServiceImpl;
 import com.atguigu.springcloud.util.ListUtils;
@@ -10,7 +9,6 @@ import com.atguigu.springcloud.util.Page;
 import com.google.common.collect.Lists;
 import org.junit.Test;
 import org.springframework.util.CollectionUtils;
-
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
@@ -113,6 +111,7 @@ public class CommonTest {
         Optional<String> ll = Optional.empty();
         ProxyFactory proxyFactory = CglibProxyFactory.create();
         System.out.println(Runtime.getRuntime().maxMemory());
+        System.out.println("dscsd");
     }
 
     @Test
@@ -140,11 +139,11 @@ public class CommonTest {
 
         paymentService.selectById(123L);
 
-        AliSmsService aliSmsService = (AliSmsService) com.atguigu.springcloud.strategy.CglibProxyFactory.getProxy(AliSmsService.class);
+        /*AliSmsService aliSmsService = (AliSmsService) com.atguigu.springcloud.strategy.CglibProxyFactory.getProxy(AliSmsService.class);
         aliSmsService.send("java");
         AliSmsService<String> stringAliSmsService = new AliSmsService<>();
         stringAliSmsService.withInitial(() -> "sdssd");
-        System.out.println(stringAliSmsService.getRes());
+        System.out.println(stringAliSmsService.getRes());*/
     }
 
     @Test

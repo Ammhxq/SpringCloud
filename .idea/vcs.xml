@@ -2,6 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/provider-payment-8001/src/main/java/com/atguigu/springcloud/service" vcs="Git" />
   </component>
 </project>
