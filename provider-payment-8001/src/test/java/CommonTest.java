@@ -37,7 +37,7 @@ public class CommonTest {
         part.forEach(System.out::println);
         List<List<String>> lists = partString(strings, 50);
         lists.forEach(System.out::println);
-        System.out.println("main branch");
+        System.out.println("dev branch");
 
     }
 
