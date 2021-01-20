@@ -47,6 +47,7 @@ public class CommonTest {
             return Lists.newArrayList();
         }
         int limit = 0;
+        System.out.println("csd");
         List<List<String>> res = Lists.newArrayList();
         List<String> patRes = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
